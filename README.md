@@ -2,6 +2,8 @@
 
 这是一个面向手机数织/Nonogram 的自动解题项目。
 
+其中求解器的实现思路参考了 [Choimoe/NonogramSolver](https://github.com/Choimoe/NonogramSolver/blob/main/src/NonogramSolver.cpp)。
+
 1. 从手机截图中识别棋盘区域。
 2. 提取左侧和上方的提示数字。
 3. 使用 Python 求解器计算答案。
